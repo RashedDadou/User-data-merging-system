@@ -21,12 +21,18 @@ This allows for: Higher privacy (data remains local as much as possible), improv
 
 Expected results and their percentage difference (realistic estimate).
 
-Side                                without UserVertex             with UserVertex:       Expected    
+Side                                without UserVertex             with UserVertex:       Expected
+
 Improvement Response Time:              2.8 seconds                 0.9-1.4 seconds       +60-68%
+
 Contextual Understanding Accuracy:           72%                         91%                +26%
+
 Conversation Continuity:                    Poor                      Excellent             +85%
+
 Privacy:                                   Medium                     Very High             +70%
+
 User Satisfaction:                           78%                          94%               +21%
+
 Resource Consumption (Cloud):               High                        Low (Edge-first)    -45%
 
 These are estimated figures based on similar experiments (e.g., RAG + Memory Systems + Edge AI).
